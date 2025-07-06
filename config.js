@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "IK~0bdwlJDY#w1f4Yjv9Plx19-jzuvUsBl0mTYLGH1ZtRXNSIbuoeAI",
+SESSION_ID: process.env.SESSION_ID || "IK~MWsTQL6R#_ve8n2jpzB368jT8ZjQ_Tqacic3Qa9SWTOaWHeqqeDo",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY KHAN-MD 🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY nasir-MD 🤍*",
 // set the auto reply massage on status reply  
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 // set true false for anti delete     
@@ -41,7 +41,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "92342758XXXX",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923142235217",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "Jᴀᴡᴀᴅ TᴇᴄʜX",
 // add bot owner name
